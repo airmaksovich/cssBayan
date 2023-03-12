@@ -21,7 +21,7 @@ h1 {
     padding: 0;
     border-radius: 0.5rem;
     box-shadow: 0 0.25rem 0.25rem -0.125rem #0008;
-    margin: 0 auto;
+    margin: 0 auto 1rem;
     overflow: hidden;
 }
 
@@ -138,6 +138,27 @@ input:checked ~ .mem .title span {
 }
 
 @media (max-width: 360px) {
+    h1 {
+        font-size: 3rem;
+        margin: 0.2rem;
+    }
+    .accordion {
+        width: 96vmin;
+        margin-bottom: 0.2rem;
+    }
+    .title {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    img {
+        width: 80%;
+        height: auto;
+    }
+
+}
+
+@media (max-height: 500px) {
     h1 {
         font-size: 3rem;
         margin: 0.2rem;
